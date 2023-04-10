@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.appointment-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #171f46;
+  border-top-width: 0px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  padding: 10px;
+}
+.start-box {
+  border-width: 0px;
+  background-color: transparent;
+}
+.appointmentItem-heading {
+  font-family: 'roboto';
+  font-size: 20px;
+}
+.list-items {
+  margin-right: 20px;
+}

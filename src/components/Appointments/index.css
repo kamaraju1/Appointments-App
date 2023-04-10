@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.background-image {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+}
+.top-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.add-appointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.heading {
+  color: #171f46;
+  font-family: 'roboto';
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.title {
+  color: #b5b7c4;
+  font-family: 'roboto';
+  font-size: 15px;
+}
+.button {
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px;
+  width: 80px;
+  text-align: center;
+}
+.starred {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.horizontal-line {
+  background-color: #b5b7c4;
+  padding: 1px;
+  width: 100%;
+}
+.appointments-heading {
+  color: #171f46;
+  font-family: 'roboto';
+}
+.appointment-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.starred-button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: transparent;
+  border-color: #9897f0;
+  color: #9897f0;
+}
+.appointments-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 30px;
+}
+.filter-style {
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 40px;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+.white-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.date-label {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Date {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.items-card-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
